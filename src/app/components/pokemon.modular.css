@@ -8,6 +8,7 @@
     left: 19px;
     background-color: #f5f7fb;
     font-family: sans-serif;
+    margin-left: 0.5cm;
 }
 p{
 font-family: sans-serif;
@@ -15,8 +16,6 @@ font-size: 12px;
 letter-spacing: 0em;
 text-align: left;
 color: #393939;
-
-
 }
 h1{
     color:  #26367C;
