@@ -53,6 +53,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 
 ##### PokemonSprites (Tipo)
 |Nombre|Descripción|Tipo|
+|------|-----------|----|
 |front_default|La imagen por defecto del Pokemon vista desde el frente en Batalla|Cadena|
 |front_shiny|La imagen shiny del Pokemon vista desde el frente en Batalla|Cadena|
 |back_default|La imagen por defecto del Pokemon vista desde detrás en Batalla|Cadena|
@@ -60,6 +61,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 
 ##### NamedAPIResource (Tipo)
 |Nombre|Descripción|Tipo|
+|------|-----------|----|
 |name|El nombre del recurso puede ser una habilidad, una forma, un nombre de un juego, una estadística base, etc.|Cadena|
 
 
