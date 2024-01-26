@@ -5,18 +5,18 @@
 
 1. Realiza un **Fork** de este repositorio:
 ![Repositorio del Examen Final](https://live.staticflickr.com/65535/53488416675_1431173e35_z.jpg)
-2. Si vas a trabajar en tu equipo local clona el nuevo repositorio resultado del Fork y abrelo con VSCode o el editor de tu preferencia para trabajar tu solución. También puedes trabajar tu solución en GitHub Codespaces o GitPot.
-3. En la terminal ejecuta el siguiente comando npm install para instalar las dependencias del proyecto 
-4. En la terminal ejecuta npm run dev para desplegar la app
-5. Limpia el proyecto y crea la carpeta components dentro de scr/app
+2. Si vas a trabajar en tu equipo local clona el nuevo repositorio resultado del **Fork** y abrelo con **VSCode** o el editor de tu preferencia para trabajar tu solución. También puedes trabajar tu solución en **GitHub Codespaces** o **GitPot**.
+3. En la terminal ejecuta el siguiente comando `npm install` para instalar las dependencias del proyecto 
+4. En la terminal ejecuta `npm run dev` para desplegar la app
+5. Limpia el proyecto y crea la carpeta `components` dentro de `scr/app`
 
 
 ### Contexto:
 
-Estás postulando para un puesto de desarrollador Front-end en una empresa que trabaja con clientes internacionales. Para poner a prueba tus habilidades te han pedido construir una aplicación web en Next.js que permita visualizar los datos de un Pokemon. Para esto te han asignado un Pokemon, te han proporcionado la documentación de la API de Pokemon para obtener los datos que debe consumir tu aplicación y te han proporcionado el diseño de UI/UX mínimo [Figma](https://cutt.ly/YwL1XB9s) que debe cumplir tu aplicación.
+Estás postulando para un puesto de desarrollador **Front-end** en una empresa que trabaja con clientes internacionales. Para poner a prueba tus habilidades te han pedido construir una aplicación web en **Next.js** que permita visualizar los datos de un **Pokemon**. Para esto te han asignado un Pokemon, te han proporcionado la documentación de la API de Pokemon para obtener los datos que debe consumir tu aplicación y te han proporcionado el **diseño de UI/UX mínimo** [Figma](https://cutt.ly/YwL1XB9s) que debe cumplir tu aplicación.
 | id del Pokemon |
 |----------------|
-|                |
+|  `<id de pokemon asignado> `|
 
 #### Documentación de la API de Pokemon:
 `GET https://pokeapi.co/api/v2/pokemon/{id o nombre}`
@@ -63,8 +63,9 @@ Estás postulando para un puesto de desarrollador Front-end en una empresa que t
 |name|El nombre del recurso puede ser una habilidad, una forma, un nombre de un juego, una estadística base, etc.|Cadena|
 
 
-### Tarea:
-Debes construir una aplicación en Next.js con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
+### Tareas:
+1. En este README.md debes colocar el **id del Pokemon** que te ha sido asignado y realizar un commit con el mensaje **"Asignación de Pokemon"**.
+2. Debes construir una aplicación en *Next.js* con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
 
 ![Diseño Pokedex](https://live.staticflickr.com/65535/53488146658_c14ae2d79c_z.jpg)
 
