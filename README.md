@@ -67,7 +67,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 
 ### Tareas:
 1. En este README.md debes colocar el **id del Pokemon** que te ha sido asignado y realizar un commit con el mensaje **"Asignación de Pokemon"**.
-2. Debes construir una aplicación en *Next.js* con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
+2. Debes construir una aplicación en **Next.js** con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
 
 ![Diseño Pokedex](https://live.staticflickr.com/65535/53488146658_c14ae2d79c_z.jpg)
 
