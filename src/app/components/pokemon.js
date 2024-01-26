@@ -40,8 +40,8 @@ export default function Descripcion() {
                 <h1>{npokemon}</h1>
             </div>
             <div>
+            <h4>#{id}</h4>
                 <Image src={imagenpokemon} alt={npokemon} width={250} height={250} />
-                <p className>#{id}</p>
             </div>
             <h3>About</h3>
             <p>Type: {type}, {type1}</p>
