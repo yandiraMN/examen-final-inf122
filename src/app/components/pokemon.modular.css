@@ -1,0 +1,23 @@
+.principal{
+    width: 375px;
+    height: 835px;
+    left: 19px;
+    background-color: #f5f7fb;
+    font-family: sans-serif;
+}
+h1{
+    color:  #26367C;
+}
+h2{
+    width: 144px;
+height: 33px;
+top: 24px;
+left: 20px;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+color: #393939;
+}
