@@ -14,6 +14,7 @@ export default function Descripcion() {
     const [height, setHeight] = useState(0);
     const [weight, setWeight] = useState(0);
     const [stats, setStats] = useState([]);
+    const [id,setId]=useState("id")
 
     useEffect(() => {
         fetch(url)
@@ -21,6 +22,7 @@ export default function Descripcion() {
             .then(data => {
                 setImagenpokemon(data.sprites.front_default);
                 setNpokemon(data.forms[0].name);
+                setId(data.game_indices[3].game_index);
                 setType(data.types[0].type.name);
                 setType1(data.types[1] ? data.types[1].type.name : "");
                 setHabilidad(data.abilities[0].ability.name);
@@ -39,6 +41,7 @@ export default function Descripcion() {
             </div>
             <div>
                 <Image src={imagenpokemon} alt={npokemon} width={250} height={250} />
+                <p className>#{id}</p>
             </div>
             <h3>About</h3>
             <p>Type: {type}, {type1}</p>
