@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Examen Final
+## Programación Web II
 
-## Getting Started
+### Antes de Empezar:
 
-First, run the development server:
+1. Realiza un **Fork** de este repositorio:
+![Repositorio del Examen Final](https://live.staticflickr.com/65535/53488416675_1431173e35_z.jpg)
+2. Si vas a trabajar en tu equipo local clona el nuevo repositorio resultado del Fork y abrelo con VSCode o el editor de tu preferencia para trabajar tu solución. También puedes trabajar tu solución en GitHub Codespaces o GitPot.
+3. En la terminal ejecuta el siguiente comando npm install para instalar las dependencias del proyecto 
+4. En la terminal ejecuta npm run dev para desplegar la app
+5. Limpia el proyecto y crea la carpeta components dentro de scr/app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Contexto:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Estás postulando para un puesto de desarrollador Front-end en una empresa que trabaja con clientes internacionales. Para poner a prueba tus habilidades te han pedido construir una aplicación web en Next.js que permita visualizar los datos de un Pokemon. Para esto te han asignado un Pokemon, te han proporcionado la documentación de la API de Pokemon para obtener los datos que debe consumir tu aplicación y te han proporcionado el diseño de UI/UX mínimo [Figma](https://cutt.ly/YwL1XB9s) que debe cumplir tu aplicación.
+| id del Pokemon |
+|----------------|
+|                |
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Documentación de la API de Pokemon:
+`GET https://pokeapi.co/api/v2/pokemon/{id o nombre}`
 
-## Learn More
+##### Pokemon (Tipo)
 
-To learn more about Next.js, take a look at the following resources:
+|Nombre|Descripción|Tipo|
+|------|-----------|----|
+|id|El identificador del Pokemon|Entero|
+|name|El nombre del Pokemon|Cadena|
+|height|La altura del Pokemon en decímetros (dm)|Entero|
+|weight|El peso del Pokemon en hectogramos (hg)|Entero|
+|abilities|Lista de habilidades potenciales que el Pokemon puede tener|Lista PokemonAbility|
+|sprites|Conjunto de imágenes usadas para representar al Pokemon|PokemonSprites|
+|stats|Una lista de estadísticas base para este Pokemon|Lista PokemonStat|
+|types|Una lista detallando a qué tipo de Pokemon pertenece|Lista  PokemonType|
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+##### PokemonAbility (Tipo)
+|Nombre|Descripción|Tipo|
+|------|-----------|----|
+|ability|La habilidad que puede tener el Pokemon|NamedAPIResource (Ability)|
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+##### PokemonType (Tipo)
+|Nombre|Descripción|Tipo|
+|------|-----------|----|
+|slot|El orden en el que se listan los tipos del Pokemon|Entero|
+|type|El tipo que tiene el Pokemon|NamedAPIResource (Type)|
 
-## Deploy on Vercel
+##### PokemonStat (Tipo)
+|Nombre|Descripción|Tipo|
+|------|-----------|----|
+|stat|Las estadísticas que el Pokemon tiene|NamedAPIResource (Stat)|
+|base_stat|El valor base de la estadística|Entero|
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##### PokemonSprites (Tipo)
+|Nombre|Descripción|Tipo|
+|front_default|La imagen por defecto del Pokemon vista desde el frente en Batalla|Cadena|
+|front_shiny|La imagen shiny del Pokemon vista desde el frente en Batalla|Cadena|
+|back_default|La imagen por defecto del Pokemon vista desde detrás en Batalla|Cadena|
+|back_shiny|La imagen shiny del Pokemon vista desde detrás en Batalla|Cadena|
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##### NamedAPIResource (Tipo)
+|Nombre|Descripción|Tipo|
+|name|El nombre del recurso puede ser una habilidad, una forma, un nombre de un juego, una estadística base, etc.|Cadena|
+
+
+### Tarea:
+Debes construir una aplicación en Next.js con los componentes necesarios para cumplir con el diseño mínimo de UI/UX presentado en [Figma ](https://cutt.ly/YwL1XB9s)
+
+![Diseño Pokedex](https://live.staticflickr.com/65535/53488146658_c14ae2d79c_z.jpg)
+
+
+#### IMPORTANTE: 
+* Para construir los componentes debes utilizar lo aprendido en clase: Next.js, JSX, eventos, estados, grid, flexbox, clases, etc. S**in estilos CSS tu solución solo será considerada código sin sentido**. No se permite el uso de tablas
+
+* La paleta de colores, textos, imágenes, iconos tienen que ser iguales al diseño presentado en Figma
+
+
+### Entrega:
+Una vez tengas la app en **Next.js** debes realizar un commit con todos tus cambios a **tu repositorio de GitHub** del examen y adjuntar el enlace del mismo en la tarea asignada en **ClassRoom**.
+
