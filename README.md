@@ -71,7 +71,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 
 
 #### IMPORTANTE: 
-* Para construir los componentes debes utilizar lo aprendido en clase: Next.js, JSX, eventos, estados, grid, flexbox, clases, etc. S**in estilos CSS tu solución solo será considerada código sin sentido**. No se permite el uso de tablas
+* Para construir los componentes debes utilizar lo aprendido en clase: Next.js, JSX, eventos, estados, grid, flexbox, clases, etc. **Sin estilos CSS tu solución solo será considerada código sin sentido**. No se permite el uso de tablas
 
 * La paleta de colores, textos, imágenes, iconos tienen que ser iguales al diseño presentado en Figma
 
