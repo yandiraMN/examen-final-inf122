@@ -1,3 +1,7 @@
+*{
+    padding: 5px;
+    margin: 0;
+}
 .principal{
     width: 375px;
     height: 835px;
@@ -5,19 +9,33 @@
     background-color: #f5f7fb;
     font-family: sans-serif;
 }
+p{
+font-family: sans-serif;
+font-size: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #393939;
+
+
+}
 h1{
     color:  #26367C;
+    text-transform: capitalize;
 }
 h2{
-    width: 144px;
-height: 33px;
-top: 24px;
-left: 20px;
-font-family: Poppins;
+font-family: sans-serif;
 font-size: 22px;
 font-weight: 600;
 line-height: 33px;
 letter-spacing: 0em;
 text-align: left;
+color: #393939;
+}
+h3{
+    font-family: sans-serif;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0em;
 color: #393939;
 }
